@@ -1,6 +1,3 @@
-Golang connect to mysql
-=======================
-
 # Install Mercurial
 
     sudo apt-get install mercurial meld

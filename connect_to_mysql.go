@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    db, err := sql.Open("mysql", "root:@/go_test")
+    db, err := sql.Open("mysql", "root:password@/go_test")
     if err != nil {
         panic(err.Error())
     }
@@ -35,5 +35,3 @@ func main() {
         log.Fatal(err)
     }
 }
-
-
