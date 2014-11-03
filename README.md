@@ -15,7 +15,7 @@
     Insert tt values ('bob');
     Insert tt values ('ted');
 
-# Execute `go run connect_to_mysql.go` and then you will see :
+# Execute `go run main.go` and then you will see :
 
     jex
     bob
